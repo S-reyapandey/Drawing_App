@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    background: url(images/bg1.jpeg) center center fixed;
+    background-size: cover;
+}
+
+/*title*/
+#header{
+    background: linear-gradient(rgb(215, 150, 89), rgba(177, 46, 23, 0.9));
+    background: -webkit-linear-gradient(rgb(215, 150, 89), rgba(177, 46, 23, 0.9));
+    background: -moz-linear-gradient(rgb(215, 150, 89), rgba(177, 46, 23, 0.9));
+    background: -o-linear-gradient(rgb(215, 150, 89), rgba(177, 46, 23, 0.9));
+    background: -ms-linear-gradient(rgb(215, 150, 89), rgba(177, 46, 23, 0.9));
+    border: 2px solid black;
+    box-shadow: 0px 0px 8px 1px rgb(182, 113, 23);
+    height: 80px;
+    width: 500px;
+    margin: 10px auto;
+    font-size: 4.5em;
+    color: #052abe;
+    line-height: 80px;
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 1px 4px #cddbe9;
+}
+
+/*inputs container*/
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/*color input, line thickness, sliders*/
+.input{
+    height: 30px;
+    font-size: 1.3em;
+    margin-bottom: 8px;
+}
+
+#slider{
+    margin: 10px auto;
+}
+
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#thicknessInput{
+    position: relative;
+}
+
+/*canvas container*/
+#container{
+    width: 590px;
+    height: 410px;
+    border: 1px solid rgba(5, 40, 196, 0.4);
+    margin: 10px auto;
+}
+
+#paint{
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.inputContainer2{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.input2{
+    width: 130px;
+    color: rgb(230, 251, 3);
+    font-size: 1.3em;
+    float: left;
+    margin-top: 8px;
+}
+
+.button{
+    background: #ff1fb1;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 3px rgb(164, 18, 108);
+    position: relative;
+}
+
+.button:hover{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    background: linear-gradient(rgb(180, 180, 180), rgba(244, 196, 188, 0.9));
+    background: -webkit-linear-gradient(rgb(180, 180, 180), rgba(244, 196, 188, 0.9));
+    background: -moz-linear-gradient(rgb(180, 180, 180), rgba(244, 196, 188, 0.9));
+    background: -o-linear-gradient(rgb(180, 180, 180), rgba(244, 196, 188, 0.9));
+    background: -ms-linear-gradient(rgb(180, 180, 180), rgba(244, 196, 188, 0.9));
+    box-shadow: 2px 2px 6px 3px rgb(89, 87, 89);
+}
+
+.button:active{
+    top: 4px;
+}
+
+.eraseMode{
+    background-color: rgb(54, 231, 51);
+    color: white;
+    box-shadow: 2px 2px 6px 3px rgb(46, 167, 9);
+}
